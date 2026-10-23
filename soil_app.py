@@ -1,5 +1,14 @@
 import streamlit as st
 
+# إخفاء شريط أدوات والأزرار العلوية ليكون التطبيق احترافياً
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.set_page_config(page_title="Soil Analysis System", page_icon="🌱", layout="centered")
 
 st.title("🌱 نظام تحليل جودة التربة والتقييم الزراعي المتقدم")
