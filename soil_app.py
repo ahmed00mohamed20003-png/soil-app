@@ -42,3 +42,5 @@ if st.button("🚀 تشغيل التقرير الزراعي الشامل", use_c
     st.info(f"- النيتروجين: {nitrogen} ppm ({'منخفض ⚠️' if nitrogen < 20 else 'مناسب وجيد ✅'})")
     st.info(f"- الفسفور: {phosphorus} ppm ({'يحتاج دعم لتنشيط الجذور ⚠️' if phosphorus < 15 else 'مستوى كافٍ ✅'})")
     st.info(f"- البوتاسيوم: {potassium} ppm ({'يحتاج تسميد بوتاسي ⚠️' if potassium < 120 else 'ممتاز وجودة ثمار عالية ✅'})")
+    st.markdown("---")
+st.markdown("© 2026 - تم تطوير التطبيق بواسطة **المهندس/ أحمد عبد العال** 🌾")
